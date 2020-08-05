@@ -1,0 +1,20 @@
+{
+  "name": "aplicacion-de-cola",
+  "version": "1.0.0",
+  "description": "Practica Ejemplo Aplicacion de Cola Socket.IO y Nodejs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev"  : "nodemon server/server.js -e js,html"
+
+  },
+  "author": "Fernando Malgor",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
